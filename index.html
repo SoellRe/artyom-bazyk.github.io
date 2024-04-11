@@ -4,7 +4,8 @@ test
    <head>
       <title>Salesforce Lightning Scheduler for Integration to Akad</title>
       <!-- 1. Add Script to Header Tag -->
-      <script type='text/javascript' src="https://condorflugdienst--devcondor.sandbox.my.site.com/HelpCenter/lightning/lightning.out.js"></script>   
+      <!-- <script type='text/javascript' src="https://condorflugdienst--devcondor.sandbox.my.site.com/HelpCenter/lightning/lightning.out.js"></script>  --> 
+      <script type='text/javascript' src="https://condorflugdienst--uat.sandbox.my.salesforce-sites.com/HelpCenter/lightning/lightning.out.js"></script> 
       <!-- 2. Add Attributes and inform your salesforce Team to include them in Lightning Scheduler -->     
        
    </head>
@@ -20,7 +21,7 @@ test
                      function() { // API name of the Flow 
                      }
                  );
-             },    'https://condorflugdienst--devcondor.sandbox.my.site.com/HelpCenter/'  // Site endpoint
+             },    'https://condorflugdienst--uat.sandbox.my.salesforce-sites.com/HelpCenter/'  // Site endpoint
          );
       </script>
       <!-- 4. Define an Element where the Appointment Scheduler should be displayed -->
